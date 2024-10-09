@@ -11,7 +11,7 @@ interface LikeButtonProps {
 
 const LikeButtonPost: React.FC<LikeButtonProps> = ({ postId }: any) => {
     const [isLiked, setIsLiked] = React.useState(false);
-    const [likeCount, setLikeCount] = React.useState(0);
+    const [__likeCount, setLikeCount] = React.useState(0);
     const queryClient = useQueryClient();
 
     useEffect(() => {

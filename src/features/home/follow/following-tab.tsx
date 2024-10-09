@@ -1,4 +1,4 @@
-import { Tabs, TabList, TabPanels, Tab, TabPanel, Box, Text, Button, Avatar, HStack, VStack, Image } from "@chakra-ui/react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel, Box, Text, Button, Image } from "@chakra-ui/react";
 import { useState } from "react";
 
 interface User {

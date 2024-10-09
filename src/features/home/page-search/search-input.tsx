@@ -9,7 +9,7 @@ import Cookies from 'js-cookie';
 export function SearchInput() {
     const [searchQuery, setSearchQuery] = useState<string>('');
     const [result, setResult] = useState<UserEntity[]>([]);
-    const [loading, setLoading] = useState<boolean>(false);
+    const [__loading, setLoading] = useState<boolean>(false);
     const token = Cookies.get('token');
     let userLogin = null;
     useEffect(() => {
